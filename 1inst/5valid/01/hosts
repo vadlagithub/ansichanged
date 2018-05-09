@@ -1,2 +1,3 @@
 [all]
-centos1
+ubuntu1 = [10.0.3.58]
+ubuntu2
