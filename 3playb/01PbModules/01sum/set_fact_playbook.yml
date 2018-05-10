@@ -6,14 +6,14 @@
 -
 
   # Target: where our play will run and options it will run with
-  hosts: ubuntu3,centos3
+  hosts: ubuntu2,centos2
 
   # Task: the list of tasks that will be executed within the play, this section
   # can also be used for pre and post tasks
   tasks:
     - name: Set a fact
       set_fact:
-        our_fact: Ansible Rocks!
+        our_fact: Ansible Rocks man!
 
     - name: Show custom fact
       debug:
